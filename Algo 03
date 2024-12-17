@@ -4,8 +4,6 @@ typedef struct element {
     int val;
     struct element *suivant;
 } element;
-
-// Fonction pour créer une liste vide
 element *creerListe() {
     return NULL; 
 }
